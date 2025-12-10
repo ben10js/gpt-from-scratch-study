@@ -19,3 +19,11 @@ It is designed to move beyond simple API usage and internalize the low-level det
 ## Tech Stack
 - **Python**
 - **PyTorch**
+
+## Experiments
+
+The model was first verified on small toy datasets to ensure that each component (tokenization, embeddings, attention, and loss) behaved as expected.  
+
+I also ran small-scale experiments on a private Korean text corpus (personal notes).  
+Because the corpus was very small, the model **failed to generate coherent sentences** and quickly overfit, but this helped me understand how data size and diversity affect training stability and sample quality.  
+The private corpus is **not** included in this repository for privacy reasons.
